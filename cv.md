@@ -31,3 +31,14 @@ function sort(arr) {
   return arr;
 }
 ```
+## Experience :
+~~I have a lot experience in programming and coding~~ I'm new in programming and coding , but i'm ready to hard work for better results, and want it =)
+
+## Education : 
+I have not education in IT sphere yet . But soon i was really good .
+
+## English 
+As you can see i have not best English but i know the pillar of English : ***London is the capital of Great Britain !!***
+school programm and self education (A2).
+
+> May the Force be with you
