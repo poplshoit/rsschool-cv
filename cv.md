@@ -18,9 +18,9 @@ and take some experience from this lessons.
 ## Example of my code:
 ```javascript
 function sort(arr) {
-  let n = arr.lenght
-  for ( let i = 0; i < n - 1; i++ ) {
-    for ( let j = 0;  j < n - 1 - i; j++ ) {
+  let n = arr.lenght - 1;
+  for ( let i = 0; i < n; i++ ) {
+    for ( let j = 0;  j < n - i; j++ ) {
       if ( arr[j] > arr[j+1] ) {
         let temp = arr[j+1];
         arr[j+1] = arr[j];
