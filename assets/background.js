@@ -33,7 +33,7 @@ function create() {
 
 function particles() {
   ctx.clearRect(0,0,w,h);
-   canvas.addEventListener('mousemove', MouseMove, false);
+   document.body.addEventListener('mousemove', MouseMove, false);
   for(var i = 0; i < arc; i++) {
     var li = parts[i];
     var distanceFactor = DistanceBetween( mouse, parts[i] );
@@ -71,8 +71,8 @@ function particles() {
   setTimeout(particles,1000/rate);
 }
 function MouseMove(e) {
-   mouse.x = e.layerX;
-   mouse.y = e.layerY;
+   mouse.x = e.screenX;
+   mouse.y = e.screenY;
 }
 function DistanceBetween(p1,p2) {
    var dx = p2.x-p1.x;
