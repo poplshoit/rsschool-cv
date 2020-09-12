@@ -1,1 +1,1 @@
-https://poplshoit.github.io/rsschool-cv/cv
+https://poplshoit.github.io/rsschool-cv/
