@@ -15,7 +15,6 @@
 body {
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 15px;
-    color: #17806d;
     line-height: 1.6;
    /* background-image: url(/assets/img01.jpg);
     background-attachment: fixed;*/
@@ -57,10 +56,53 @@ h1 {
     font-size: 25px;
 }
 
+.contacts_list {
+    list-style-type: none;
+}
+.contact_link {
+    text-decoration: none;
+    color:#f57900;
+    background-color: black;
+}
 .summary,
 .skills,
 .example_code,
 .english,
 .education {
+    margin-top: 20px;
+}
+
+.summary {
+    color:yellow;
     
+}
+
+.summary_title,
+.summary_description {
+    background-color: black;
+    width: fit-content;
+}
+
+.skills {
+    color:#ffa358;
+
+}
+
+.skills_title {
+    background-color: black;
+}
+.skills_list_item {
+    background-color: black;
+    width: fit-content;
+}
+
+.skills_list_legend {
+    background-color: black;
+}
+
+.code_example_title,
+.code_example_code {
+    background-color:black;
+    width: fit-content;
+    color:#e686ff;
 }
