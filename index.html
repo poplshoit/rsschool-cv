@@ -1,11 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MaksPoplshoitPage</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1></h1>
+    <header><h1 class="name">Maksim Popushoi</h1></header>
+    <main>
+        <div class="container_info">
+            <section class="contacts">
+                <ul class="contacts_list">
+                    <li class="contacts_list_item">
+                        <a href="https://vk.com/papshoy" class="contact_link">VK page</a>
+                    </li>
+                    <li class="contacts_list_item">
+                        <a href="tel:+375298692763" class="contact_link">+375298692763</a>
+                    </li>
+                    <li class="contacts_list_item">
+                        <a href="mailto:poplshoy@gmail.com" class="contact_link">poplshoy@gmail.com</a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/poplshoit/">www.instagram.com/poplshoit</a>
+                    </li>
+                </ul>
+            </section>
+            <section class="avatar">
+                <img src="/assets/1.gif" class="avatar_img">
+            </section>
+        </div>
+        <div class ="container_discription">
+            <section class="summary">
+                <h2>Summary :</h2>
+                <p>I came on this courses to have some new experience and rise up my skills.<br>
+                    I want to work in <b>IT sphere</b> cause i think : <i>future belong to IT technology</i> .</p>
+            </section>
+            <section class="skills">
+                <h2>Skills :</h2>
+                <ul>I passed tests :
+                    <li>Self CSS Basics.</li>
+                    <li>Self JS Basics.</li>
+                    <li>Self HTML Basics.</li>
+                </ul>
+            </section>
+            <section class="example_code">
+                <h2>Example of my code:</h2>
+                    <pre>
+                        function sort(arr) {
+                            let n = arr.lenght
+                            for ( let i = 0; i < n - 1; i++ ) {
+                            for ( let j = 0;  j < n - 1 - i; j++ ) {
+                                if ( arr[j] > arr[j+1] ) {
+                                let temp = arr[j+1];
+                                arr[j+1] = arr[j];
+                                arr[j] = temp;
+                                }
+                            }
+                            }
+                            return arr;
+                        }                      
+                    </pre>
+            </section>
+            <section class="experience">
+                <h2>Experience :</h2>
+                    <p><underline>I have a lot experience in programming and coding</underline> I'm new in programming and coding , but i'm ready to hard work for better results, and want it =)</p>
+            </section>
+        </div>
+    </main>
+    <canvas id="background"></canvas>
+    <script src="assets/background.js"></script>
 </body>
 </html>
